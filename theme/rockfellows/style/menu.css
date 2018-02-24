@@ -1,0 +1,167 @@
+
+
+/*********************
+*  Boite principale  *
+**********************/
+
+/*   Contour de la boite de catégories   */
+.categoOutline{}
+
+/*    Texte à l'extéerieur de la fonction des liens   */
+.MenuGauche{}
+
+
+
+/***************************
+*  cellule des catégories  *
+****************************/
+
+/*    1er niveau    */
+
+TD.divSpace{}
+
+/*    liens des categories     */
+
+A.blockCatego:link{font-size:11px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none; font-weight:bold;}
+A.blockCatego:visited{font-size:11px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none;  font-weight:bold;}
+A.blockCatego:hover{font-size:11px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none;  font-weight:bold;}
+A.blockCatego:active{font-size:11px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none;  font-weight:bold;}
+
+/*    lien (ou cellule) inactif(ve)     */
+
+TD.blockCatego{font-size:11px; font-family:Arial; padding-left:15px; color:#434260; text-transform:uppercase; text-decoration:none; height:10px; font-weight:bold;}
+
+
+
+/*    TR    */
+/*    fond des cellules, bon pour des rollover    */
+
+TR.RowBlockCatego{}
+
+TR.RowBlockCategoOver{}
+
+TR.RowBlockCategoUp{}
+
+
+/*    TD    */
+
+TD.RowBlockCatego{}
+
+TD.RowBlockCategoOver{}
+
+
+
+/**********************
+*  cellule des pages  *
+**********************/
+
+/*    2e niveau     */
+
+/*    liens des pages  */
+
+a.ListLinks:link{font-size:10px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none;  line-height:22px; padding-left:15px;}
+a.ListLinks:visited{font-size:10px; font-family:Arial; color:#434260; text-transform:uppercase; text-decoration:none;  line-height:22px;  padding-left:15px;}
+a.ListLinks:hover{font-size:10px; font-family:Arial; color:#1e1d31; text-transform:uppercase; text-decoration:underline;  line-height:22px; padding-left:15px;}
+a.ListLinks:active{font-size:10px; font-family:Arial; color:#1e1d31; text-transform:uppercase; text-decoration:underline; line-height:22px; padding-left:15px;}
+
+/* lien inactif (span)   */
+
+SPAN.ListLinks{font-size:10px; font-family:Arial; color:#1e1d31; text-transform:uppercase; text-decoration:underline; line-height:22px; padding-left:15px;}
+
+TD.PageCell{width:212px;}
+
+/*    Boite des pages     */
+/*    Bordures vont ici    */
+
+.blockSubPage{ border-style:none; border-color:#6c6868; border-width:0px 0px 1px 0px; width:250px;}
+
+/*    fond des cellules, bon pour des rollover    */
+
+TR.RowListLinksUp{height:20px;font-size:10px;}
+
+TR.RowListLinks{height:20px;font-size:10px; }
+
+TR.RowListLinksOver{height:20px;font-size:10px;}
+
+
+
+/***************************
+*  cellules AxialBoutique  *
+****************************/
+
+/*    3e niveau    */
+
+TD.SubBlockCatego{}
+
+TR.SubRowBlockCatego{}
+
+TD.SubRowBlockCatego{}
+
+TR.SubRowBlockCategoUp{}
+
+TD.SubRowBlockCategoUp{}
+
+TR.SubRowBlockCategoOver{}
+
+TD.SubRowBlockCategoOver{}
+
+TR.SubSubRowBlockCatego{}
+
+TD.SubSubRowBlockCatego{}
+
+
+/**************************************
+* liens des pages d'un menu harcodé   *
+***************************************/
+
+a.BoxLink:link{}
+a.BoxLink:visited{}
+a.BoxLink:hover{}
+a.BoxLink:active{}
+
+
+/*******************
+*  Menu Déroulant  *
+*******************/
+
+/* Placer ici les styles TABLE.Drop, TD.DropCatego, a.DropCatego, TD.DropPage, a.DropPage, .bg_deroule */
+TABLE.Drop{background-color:#67737A; width:250px; border-style:solid; border-width:0px 1px 0px 1px; border-color:#B2B6B9; }
+a.DropPage:link{line-height:20px;  display:block;  text-decoration:none; padding:2px 10px;}
+a.DropPage:visited{line-height:20px;  display:block;   text-decoration:none; padding:2px 10px;}
+a.DropPage:hover{ line-height:20px;  display:block; background-color:#404C54; padding:2px 10px; text-decoration:none;}
+a.DropPage:active{ line-height:20px;  display:block;   text-decoration:none; padding:2px 10px;}
+TD.DropPage{  color:#F7921D; line-height:20px; border-style:solid; border-width:0px 0px 1px 0px; border-color:#B2B6B9;   text-decoration:none;  }
+TD.DropCatego{ color:#F7921D; line-height:20px; border-style:solid; border-width:0px 0px 1px 0px; border-color:#B2B6B9;   text-decoration:none; padding:2px 10px; }
+SPAN.DropPage{ line-height:20px;  display:block;   text-decoration:none; padding:2px 10px;}
+
+/********************
+*  Menu Horizontal  *
+********************/
+
+/* Placer ici les styles TABLE.MenuHor, TD.MenuHor, a.MenuHor, a.MenuHorSelected */
+
+.bg_deroule{}
+
+TABLE.MenuHor{}
+
+a.MenuHorCatego:link{}
+a.MenuHorCatego:visited{}
+a.MenuHorCatego:hover{}
+a.MenuHorCatego:active{}
+
+a.MenuHorCategoSelected:link{}
+a.MenuHorCategoSelected:visited{}
+a.MenuHorCategoSelected:hover{}
+a.MenuHorCategoSelected:active{}
+
+a.MenuHor:link{}
+a.MenuHor:visited{}
+a.MenuHor:hover{}
+a.MenuHor:active{}
+
+a.MenuHorSelected:link{}
+a.MenuHorSelected:visited{}
+a.MenuHorSelected:hover{}
+a.MenuHorSelected:active{}
+
+
