@@ -2,31 +2,87 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Groupe rock de Sherbrooke</title>
 
 <link rel="StyleSheet" href="/themes/rockfellows/style/menu.css" type="text/css">
-<style type="text/css">@import url("/themes/rockfellows/style/style.css"); </style>
-<script type="text/javascript" src="/includes_axial/axialScript.js"></script><script type="text/javascript" src="/includes_axial/formScript.js"></script><script type="text/javascript" src="includes_axial/ckeditor/ckeditor.js"></script>
-<!-- Début du code HTML pour la fonction "Header" -->
-<link rel="stylesheet" href="themes/rockfellows/style/style.css" />
-<script type="text/javascript" src="/includes_axial/jquery-1.4.4.min.js"></script>
-<script type="text/javascript">
-
-function get_next_pic(which)
-{
-	var next = (which >= $('#header img').size() ? 1 : which + 1 );
-	$('#img' + which).fadeOut('slow', function(){$('#img' + next).fadeIn('slow', function(){ setTimeout("get_next_pic(" + next + ");", 8000); });});
-}
-
-$(document).ready(function()
-{
-	setTimeout("get_next_pic($('#header img').size());", 2000);
-});
-
-
-
-</script>
+<style type="text/css">
+html , body {margin:0px; padding:0px;color:white;background:black;font-family:verdana,geneva,arial,sans-serif;font-size:13px;}
+	a{color:red;text-decoration:none;}
+	a:hover{color:red;text-decoration:underline;}
+	#main{background:transparent url('/themes/rockfellows/images/4navbase6.gif') center 250px no-repeat;}
+	.centered{width:960px;margin:0px auto;}
+	#topmost{text-align:right;background-color:black;height:25px;font-size:14px;line-height:25px;}
+	#header{height:225px;background:black url('/themes/rockfellows/images/logo.gif') center center no-repeat;}
+	#header img{position:absolute;}
+	#header #img1{display:none;}
+	#header #img2{display:none;}
+	#header #img3{display:none;}
+	
+	#navbar{background: url('/themes/rockfellows/images/4navbase5.gif') repeat-x;height:36px;}
+	#navbar a {line-height:36px;display:block;float:left;background: url('/themes/rockfellows/images/4navbase-btn2-c.gif') repeat-x;height:36px;width:160px; text-align:center;font-size:18px;color:#EEE;text-decoration:none;}
+	#navbar span{height:36px;width:4px;}
+	
+	
+	#navbar .nbll {float:left;background: url('/themes/rockfellows/images/4navbase-btn2-l.gif') no-repeat;}
+	#navbar .nblr {float:right;background: url('/themes/rockfellows/images/4navbase-btn2-r.gif') no-repeat;}
+	
+	#navbar .nbl span{display:block;width:100%;}
+	#navbar .nbll {background: url('/themes/rockfellows/images/4navbase-btn2-l.gif') top left no-repeat;}
+	#navbar .nblr {background: url('/themes/rockfellows/images/4navbase-btn2-r.gif') top right no-repeat;}
+	
+	#navbar a:hover {background-image: url('/themes/rockfellows/images/4navbase-btn2-in-c.gif'); }
+	#navbar a:hover .nbll {background-image: url('/themes/rockfellows/images/4navbase-btn2-in-l.gif');}
+	#navbar a:hover .nblr {background-image: url('/themes/rockfellows/images/4navbase-btn2-in-r.gif');}
+	
+	#middle{background-color:black;color:white;background-image:none;}
+	
+	#content{width:600px;float:left;}
+	#content h1 {color:#c9c9c9;}
+	#content p {margin:12px;}
+	
+	#sidebar{width:350px;float:right;}
+	#sb-center{width:250px;margin:0px auto;}
+	#rfcal {margin:12px auto;width:250px;border:1px solid #333;text-align:center;}
+	#rfcal-details{float:right;color:#999;width:150px;display:none;}
+	
+	.fb_iframe_widget{display:block;margin:12px auto;}
+	.twtr-doc{margin:12px auto;}
+	.twtr-ft div a {display:none;}
+	
+	#footer{border-top:1px solid white;clear:both;text-align:right;/*background-image:url('/themes/rockfellows/images/4navbase6.gif');*/}
+	
+	#contactus
+	{
+		position:fixed;
+		width:100%;
+		height:80px;
+		background-color:#111;
+		bottom:0px;
+	}
+	
+	#contactusspacer
+	{
+		width:100%;
+		height:80px;
+		bacground-color:red;
+	}
+	
+	
+	
+	#contactform
+	{
+		width:600px;
+	}
+	
+	#contactform label { float:left; display:block; width:250px;}
+	#contactform input , #contactform textarea { float:left;clear:right;display:block; }
+	#contactform #sendbutton {clear:both;float:right;}
+</style>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
 
 <script type="text/javascript">
 
